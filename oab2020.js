@@ -717,57 +717,608 @@
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "45"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "No contrato da sociedade empresária Arealva Calçados Finos Ltda., não consta cláusula de regência supletiva pelas disposições de outro tipo societário. Ademais, tanto no contrato social quanto nas disposições legais relativas ao tipo adotado pela sociedade não há norma regulando a sucessão por morte de sócio. Diante da situação narrada, assinale a afirmativa correta.",
+    a: "Haverá resolução da sociedade em relação ao sócio em caso de morte.",
+    b: "Haverá transmissão causa mortis da quota social.",
+    c: "Caberá aos sócios remanescentes regular a substituição do sócio falecido.",
+    d: "Os sócios serão obrigados a incluir, no contrato, cláusula dispondo sobre a sucessão por morte de sócio.",
+    certo: "a",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "46"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "Anadia e Deodoro são condôminos de uma quota de sociedade limitada no valor de R$ 13.000,00 (treze mil reais). Nem a quota nem o capital da sociedade – fixado em R$ 50.000,00 (cinquenta mil reais) – se encontram integralizados.
+
+        Você é consultado(a),
+    como advogado(a),
+    sobre a possibilidade de a sociedade demandar os condôminos para que integralizem a referida quota.Assinale a opção que apresenta a resposta correta.
+    ",
+    a: "Eles são obrigados à integralização apenas a partir da decretação de falência da sociedade.",
+    b: "Eles não são obrigados à integralização, pelo fato de serem condôminos de quota indivisa.",
+    c: "Eles são obrigados à integralização, porque todos os sócios, mesmo os condôminos, devem integralizar o capital.",
+    d: "Eles não são obrigados à integralização, porque o capital da sociedade é inferior a 100 salários mínimos.",
+    certo: "c",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "47"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "As sociedades empresárias Y e J celebraram contrato tendo por objeto a alienação do estabelecimento da primeira, situado em Antônio Dias/MG. Na data da assinatura do contrato, dentre outros débitos regularmente contabilizados, constava uma nota promissória vencida havia três meses no valor de R$ 25.000,00 (vinte e cinco mil reais). O contrato não tem nenhuma cláusula quanto à existência de solidariedade entre as partes, tanto pelos débitos vencidos quanto pelos vincendos.
+
+        Sabendo - se que,
+    em 15 / 10 / 2018,
+    após averbação na Junta Comercial competente,
+    houve publicação do contrato na imprensa oficial e,
+    tomando por base comparativa o dia 15 / 01 / 2020,
+    o alienante ",
+    a: "responderá pelo débito vencido com o adquirente por não terem decorrido cinco anos da publicação do contrato na imprensa oficial.",
+    b: "não responderá pelo débito vencido com o adquirente em razão de não ter sido estipulada tal solidariedade no contrato.",
+    c: "responderá pelo débito vencido com o adquirente até a ocorrência da prescrição relativa à cobrança da nota promissória.",
+    d: "não responderá pelo débito vencido com o adquirente diante do decurso de mais de 1 (um) ano da publicação do contrato na imprensa oficial.",
+    certo: "d",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "48"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "Duas sociedades empresárias celebraram contrato de agência com uma terceira sociedade empresária, que assumiu a obrigação de, em caráter não eventual e sem vínculos de dependência com as proponentes, promover, à conta das primeiras, mediante retribuição, a realização de certos negócios com exclusividade, nos municípios integrantes da região metropolitana de Curitiba/PR.
+
+        Ficou pactuado que as proponentes conferirão poderes à agente para que esta as represente,
+    como mandatária,
+    na conclusão dos contratos.Antônio Prado,
+    sócio de uma das sociedades empresárias contratantes,
+    consulta seu advogado quanto à legalidade do contrato,
+    notadamente da delimitação de zona geográfica e da concessão de mandato ao agente.
+
+    Sobre a hipótese apresentada,
+    considerando as disposições legais relativas ao contrato de agência,
+    assinale a afirmativa correta.
+    ",
+    a: "Não há ilegalidade quanto à delimitação de zona geográfica para atuação exclusiva do agente, bem como em relação à possibilidade de ser o agente mandatário das proponentes, por serem características do contrato de agência.",
+    b: "Há ilegalidade na fixação de zona determinada para atuação exclusiva do agente, por ferir a livre concorrência entre agentes, mas não há ilegalidade na outorga de mandato ao agente para representação das proponentes.",
+    c: "Há ilegalidade tanto na outorga de mandato ao agente para representação dos proponentes, por ser vedada qualquer relação de dependência entre agente e proponente, e também quanto à fixação de zona determinada para atuação exclusiva do agente.",
+    d: "Não há ilegalidade quanto à fixação de zona determinada para atuação exclusiva do agente, mas há ilegalidade quanto à concessão de mandato do agente, porque é obrigatório por lei que o agente apenas faça a mediação dos negócios no interesse do proponente.",
+    certo: "a",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "49"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "José da Silva, credor de sociedade empresária, consulta você, como advogado(a), para obter orientação quanto aos efeitos de uma provável convolação de recuperação judicial em falência. Em relação à hipótese apresentada, analise as afirmativas a seguir e assinale a única correta.",
+    a: "Os créditos remanescentes da recuperação judicial serão considerados habilitados quando definitivamente incluídos no quadro-geral de credores, tendo prosseguimento as habilitações que estiverem em curso.",
+    b: "As ações que devam ser propostas no juízo da falência estão sujeitas à distribuição por dependência, exceto a ação revocatória e a ação revisional de crédito admitido ao quadro geral de credores.",
+    c: "A decretação da falência determina o vencimento antecipado das dívidas do devedor quanto aos créditos excluídos dos efeitos da recuperação judicial; quanto aos créditos submetidos ao plano de recuperação, são mantidos os prazos nele estabelecidos e homologados pelo juiz.",
+    d: "As ações intentadas pelo devedor durante a recuperação judicial serão encerradas, devendo ser intimado o administrador judicial da extinção dos feitos, sob pena de nulidade do processo.",
+    certo: "a",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "50"
 }, {
-    pergunta: "",
-    a: "",
-    b: "",
-    c: "",
-    d: "",
-    certo: "",
+    pergunta: "Julieta ajuizou demanda em face de Rafaela e, a fim de provar os fatos constitutivos de seu direito, arrolou como testemunhas Fernanda e Vicente. A demandada, por sua vez, arrolou as testemunhas Pedro e Mônica.
+
+        Durante a instrução,
+    Fernanda e Vicente em nada contribuíram para o esclarecimento dos fatos,
+    enquanto Pedro e Mônica confirmaram o alegado na petição inicial.Em razões finais,
+    o advogado da autora requereu a procedência dos pedidos,
+    ao que se contrapôs o patrono da ré,
+    sob o argumento de que as provas produzidas pela autora não confirmaram suas alegações e,
+    ademais,
+    as provas produzidas pela ré não podem prejudicá - la.
+
+    Consideradas as normas processuais em vigor,
+    assinale a afirmativa correta.
+    ",
+    a: "O advogado da demandada está correto, pois competia à demandante a prova dos fatos constitutivos do seu direito.",
+    b: "O advogado da demandante está correto, porque a prova, uma vez produzida, pode beneficiar parte distinta da que a requereu.",
+    c: "O advogado da demandante está incorreto, pois o princípio da aquisição da prova não é aplicável à hipótese.",
+    d: "O advogado da demandada está incorreto, porque as provas só podem beneficiar a parte que as produziu, segundo o princípio da aquisição da prova.",
+    certo: "b",
     ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
     questao: "51"
+}, {
+    pergunta: "Um advogado elabora uma petição inicial em observância aos requisitos legais. Da análise da peça postulatória, mesmo se deparando com controvérsia fática, o magistrado julga o pedido improcedente liminarmente.
+
+        Diante dessa situação,
+    o patrono do autor opta por recorrer contra o provimento do juiz, arguindo a nulidade da decisão por necessidade de dilação probatória.
+
+        Com base nessa situação hipotética,
+    assinale a afirmativa correta.
+    ",
+    a: "O advogado pode aduzir que, antes de proferir sentença extintiva, o juiz deve, necessariamente, determinar a emenda à inicial, em atenção ao princípio da primazia de mérito.",
+    b: "Não existem hipóteses de improcedência liminar no atual sistema processual, por traduzirem restrição do princípio da inafastabilidade da prestação jurisdicional e ofensa ao princípio do devido processo legal.",
+    c: "Somente a inépcia da petição inicial autoriza a improcedência liminar dos pedidos.",
+    d: "Nas hipóteses em que há necessidade de dilação probatória, não cabe improcedência liminar do pedido.",
+    certo: "d",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "52"
+}, {
+    pergunta: "Marcos foi contratado por Júlio para realizar obras de instalação elétrica no apartamento deste. Por negligência de Marcos, houve um incêndio que destruiu boa parte do imóvel e dos móveis que o guarneciam. Como não conseguiu obter a reparação dos prejuízos amigavelmente, Júlio ajuizou ação em face de Marcos e obteve sua condenação ao pagamento da quantia de R$ 148.000,00 (cento e quarenta e oito mil reais).
+
+        Após a prolação da sentença,
+    foi interposta apelação por Marcos,
+    que ainda aguarda julgamento pelo Tribunal.Júlio,
+    ato contínuo,
+    apresentou cópia da sentença perante o cartório de registro imobiliário,
+    para registro da hipoteca judiciária sob um imóvel de propriedade de Marcos,
+    visando a garantir futuro pagamento do crédito.
+
+    Sobre o caso apresentado,
+    assinale a afirmativa correta.
+    ",
+    a: "Júlio não pode solicitar o registro da hipoteca judiciária, uma vez que ainda está pendente de julgamento o recurso de apelação de Marcos.",
+    b: "Júlio, mesmo que seja registrada a hipoteca judiciária, não terá direito de preferência sobre o bem em relação a outros credores.",
+    c: "A hipoteca judiciária apenas poderá ser constituída e registrada mediante decisão proferida no Tribunal, em caráter de tutela provisória, na pendência do recurso de apelação interposto por Marcos.",
+    d: "Júlio poderá levar a registro a sentença, e, uma vez constituída a hipoteca judiciária, esta conferirá a Júlio o direito de preferência em relação a outros credores, observada a prioridade do registro.",
+    certo: "d",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "53"
+}, {
+    pergunta: "Bruno ajuizou contra Flávio ação de execução de título executivo extrajudicial, com base em instrumento particular, firmado por duas testemunhas, para obter o pagamento forçado de R$ 10.000,00 (dez mil reais). Devidamente citado, Flávio prestou, em juízo, garantia integral do valor executado e opôs embargos à execução dentro do prazo legal, alegando, preliminarmente, a incompetência relativa do juízo da execução e, no mérito, que o exequente pleiteia quantia superior à do título (excesso de execução).
+
+        No entanto,
+    em seus embargos à execução,
+    embora tenha alegado excesso de execução,
+    Flávio não apontou o valor que entendia ser correto,
+    tampouco apresentou cálculo com o demonstrativo discriminado e atualizado do valor em questão.
+
+    Considerando essa situação hipotética,
+    assinale a afirmativa correta.
+    ",
+    a: "Os embargos à execução devem ser liminarmente rejeitados, sem resolução do mérito, porquanto Flávio não demonstrou adequadamente o excesso de execução, ao deixar de apontar o valor que entendia correto e de apresentar cálculo com o demonstrativo discriminado e atualizado do valor em questão.",
+    b: "O juiz deverá rejeitar as alegações de incompetência relativa do juízo e de excesso de execução deduzidas por Flávio, por não constituírem matérias passíveis de alegação em sede de embargos à execução.",
+    c: "Os embargos à execução serão processados para a apreciação da alegação de incompetência relativa do juízo, mas o juiz não examinará a alegação de excesso de execução, tendo em vista que Flávio não indicou o valor que entendia correto para a execução, não apresentando o cálculo discriminado e atualizado do valor em questão.",
+    d: "O juiz deverá processar e julgar os embargos à execução em sua integralidade, não surtindo qualquer efeito a falta de indicação do valor alegado como excesso e a ausência de apresentação de cálculo discriminado e atualizado do valor em questão, uma vez que os embargos foram apresentados dentro do prazo legal.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "54"
+}, {
+    pergunta: "Em um processo em que Carla disputava a titularidade de um apartamento com Marcos, este obteve sentença favorável, por apresentar, em juízo, cópia de um contrato de compra e venda e termo de quitação, anteriores ao contrato firmado por Carla. A sentença transitou em julgado sem que Carla apresentasse recurso.
+
+        Alguns meses depois,
+    Carla descobriu que Marcos era réu em um processo criminal no qual tinha sido comprovada a falsidade de vários documentos,
+    dentre eles o contrato de compra e venda do apartamento disputado e o referido termo de quitação.
+
+    Carla pretende,
+    com base em seu contrato,
+    retornar a juízo para buscar o direito ao imóvel.Para isso,
+    ela pode ",
+    a: "interpor recurso de apelação contra a sentença, ainda que já tenha ocorrido o trânsito em julgado, fundado em prova nova.",
+    b: "propor reclamação, para garantir a autoridade da decisão prolatada no juízo criminal, e formular pedido que lhe reconheça o direito ao imóvel.",
+    c: "ajuizar rescisória, demonstrando que a sentença foi fundada em prova cuja falsidade foi apurada em processo criminal.",
+    d: "requerer cumprimento de sentença diretamente no juízo criminal, para que a decisão que reconheceu a falsidade do documento valha como título judicial para transferência da propriedade do imóvel para seu nome.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "55"
+}, {
+    pergunta: "Gustavo procura você, como advogado(a), visando ao ajuizamento de uma ação em face de João, para a defesa da posse de um imóvel localizado em Minas Gerais. Na defesa dos interesses do seu cliente, quanto à ação possessória a ser proposta, assinale a afirmativa correta.",
+    a: "Não é lícito cumular o pedido possessório com condenação em perdas e danos a Gustavo, dada a especialidade do procedimento.",
+    b: "Na pendência da ação possessória proposta por Gustavo, não é possível, nem a ele, nem a João, propor ação de reconhecimento de domínio, salvo em face de terceira pessoa.",
+    c: "Se a proposta de ação de manutenção de posse por Gustavo for um esbulho, o juiz não pode receber a ação de manutenção de posse como reintegração de posse, por falta de interesse de adequação.",
+    d: "Caso se entenda possuidor do imóvel e pretenda defender sua posse, o meio adequado a ser utilizado por João é a reconvenção em face de Gustavo.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "56"
+}, {
+    pergunta: "O arquiteto Fernando ajuizou ação exclusivamente em face de Daniela, sua cliente, buscando a cobrança de valores que não teriam sido pagos no âmbito de um contrato de reforma de apartamento.
+
+        Daniela,
+    devidamente citada,
+    deixou de oferecer contestação,
+    mas,
+    em litisconsórcio com seu marido José,
+    apresentou reconvenção em peça autônoma,
+    buscando indenização por danos morais em face de Fernando e sua empresa,
+    sob o argumento de que estes,
+    após a conclusão das obras de reforma,
+    expuseram,
+    em site próprio,
+    fotos do interior do imóvel dos reconvintes sem que tivessem autorização para tanto.
+
+        Diante dessa situação hipotética,
+    assinale a afirmativa correta.
+    ",
+    a: "Como Daniela deixou de contestar a ação, ela e seu marido não poderiam ter apresentado reconvenção, devendo ter ajuizado ação autônoma para buscar a indenização pretendida.",
+    b: "A reconvenção deverá ser processada, a despeito de Daniela não ter contestado a ação originária, na medida em que o réu pode propor reconvenção independentemente de oferecer contestação.",
+    c: "A reconvenção não poderá ser processada, na medida em que não é lícito a Daniela propor reconvenção em litisconsórcio com seu marido, que é um terceiro que não faz parte da ação originária.",
+    d: "A reconvenção não poderá ser processada, na medida em que não é lícito a Daniela incluir no polo passivo da reconvenção a empresa de Fernando, que é um terceiro que não faz parte da ação originária.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "57"
+}, {
+    pergunta: "Caio, funcionário público, Antônio, empresário, Ricardo, comerciante, e Vitor, adolescente, de forma recorrente se reúnem, de maneira estruturalmente ordenada e com clara divisão de tarefas, inclusive Antônio figurando como líder, com o objetivo de organizarem a prática de diversos delitos de falsidade ideológica de documento particular (Art. 299 do CP: pena: 01 a 03 anos de reclusão e multa). Apesar de o objetivo ser a falsificação de documentos particulares, Caio utilizava-se da sua função pública para obter as informações a serem inseridas de forma falsa na documentação.
+
+        Descobertos os fatos,
+    Caio,
+    Ricardo e Antônio foram denunciados,
+    devidamente processados e condenados como incursos nas sanções do Art.2 º da Lei nº 12.850 / 13(constituir organização criminosa),
+    sendo reconhecidas as causas de aumento em razão do envolvimento de funcionário público e em razão do envolvimento de adolescente.A Antônio foi, ainda, agravada a pena diante da posição de liderança.
+
+        Constituído nos autos apenas para defesa dos interesses de Antônio,
+    o advogado,
+    em sede de recurso,
+    sob o ponto de vista técnico,
+    de acordo com as previsões legais,
+    deverá requerer ",
+    a: "desclassificação para o crime de associação criminosa, previsto no Código Penal (antigo bando ou quadrilha).",
+    b: "afastamento da causa de aumento em razão do envolvimento de adolescente, diante da ausência de previsão legal.",
+    c: "afastamento da causa de aumento em razão da presença de funcionário público, tendo em vista que Antônio não é funcionário público e nem equiparado, devendo a majorante ser restrita a Caio.",
+    d: "afastamento da agravante, pelo fato de Antônio ser o comandante da organização criminosa, uma vez que tal incremento da pena não está previsto na Lei nº 12.850/13.",
+    certo: "a",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "58"
+}, {
+    pergunta: "Maria, em uma loja de departamento, apresentou roupas no valor de R$ 1.200 (mil e duzentos reais) ao caixa, buscando efetuar o pagamento por meio de um cheque de terceira pessoa, inclusive assinando como se fosse a titular da conta. Na ocasião, não foi exigido qualquer documento de identidade.
+
+        Todavia,
+    o caixa da loja desconfiou do seu nervosismo no preenchimento do cheque, apesar da assinatura perfeita, e consultou o banco sacado, constatando que aquele documento constava como furtado.Assim, Maria foi presa em flagrante naquele momento e, posteriormente, denunciada pelos crimes de estelionato e falsificação de documento público, em concurso material.
+
+        Confirmados os fatos,
+    o advogado de Maria,
+    no momento das alegações finais,
+    sob o ponto de vista técnico,
+    deverá buscar o reconhecimento ",
+    a: "do concurso formal entre os crimes de estelionato consumado e falsificação de documento público.",
+    b: "do concurso formal entre os crimes de estelionato tentado e falsificação de documento particular.",
+    c: "de crime único de estelionato, na forma consumada, afastando-se o concurso de crimes.",
+    d: "de crime único de estelionato, na forma tentada, afastando-se o concurso de crimes.",
+    certo: "d",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "59"
+}, {
+    pergunta: "Durante uma reunião de condomínio, Paulo, com o animus de ofender a honra objetiva do condômino Arthur, funcionário público, mesmo sabendo que o ofendido foi absolvido daquela imputação por decisão transitada em julgado, afirmou que Artur não tem condições morais para conviver naquele prédio, porquanto se apropriara de dinheiro do condomínio quando exercia a função de síndico.
+
+        Inconformado com a ofensa à sua honra,
+    Arthur ofereceu queixa - crime em face de Paulo,
+    imputando - lhe a prática do crime de calúnia.Preocupado com as consequências de seu ato,
+    após ser regularmente citado,
+    Paulo procura você,
+    como advogado(a),
+    para assistência técnica.
+
+    Considerando apenas as informações expostas,
+    você deverá esclarecer que a conduta de Paulo configura crime de ",
+    a: "difamação, não de calúnia, cabendo exceção da verdade por parte de Paulo.",
+    b: "injúria, não de calúnia, de modo que não cabe exceção da verdade por parte de Paulo.",
+    c: "calúnia efetivamente imputado, não cabendo exceção da verdade por parte de Paulo.",
+    d: "calúnia efetivamente imputado, sendo possível o oferecimento da exceção da verdade por parte de Paulo.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "60"
+}, {
+    pergunta: "Inconformado por estar desempregado, Lúcio resolve se embriagar. Quando se encontrava no interior do coletivo retornando para casa, ele verifica que o passageiro sentado à sua frente estava dormindo, e o telefone celular deste estava solto em seu bolso. Aproveitando-se da situação, Lúcio subtrai o aparelho sem ser notado pelo lesado, que continuava dormindo profundamente. Ao tentar sair do coletivo, Lúcio foi interpelado por outro passageiro, que assistiu ao ocorrido, iniciando-se uma grande confusão, que fez com que o lesado acordasse e verificasse que seu aparelho fora subtraído.
+
+        Após denúncia pelo crime de furto qualificado pela destreza e regular processamento do feito, Lúcio foi condenado nos termos da denúncia, sendo, ainda, aplicada a agravante da embriaguez preordenada, já que Lúcio teria se embriagado dolosamente.
+
+        Considerando apenas as informações expostas e que os fatos foram confirmados,
+    o(a) advogado(a) de Lúcio,
+    no momento da apresentação de recurso de apelação,
+    poderá requerer ",
+    a: "o reconhecimento de causa de diminuição de pena diante da redução da capacidade em razão da sua embriaguez, mas não o afastamento da qualificadora da destreza.",
+    b: "a desclassificação para o crime de furto simples, mas não o afastamento da agravante da embriaguez preordenada.",
+    c: "a desclassificação para o crime de furto simples e o afastamento da agravante, não devendo a embriaguez do autor do fato interferir na tipificação da conduta ou na dosimetria da pena.",
+    d: "a absolvição, diante da ausência de culpabilidade, em razão da embriaguez completa.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "61"
+}, {
+    pergunta: "Yuri foi denunciado pela suposta prática de crime de estupro qualificado em razão da idade da vítima, porque teria praticado conjunção carnal contra a vontade de Luana, de 15 anos, mediante emprego de grave ameaça. No curso da instrução, Luana mudou sua versão e afirmou que, na realidade, havia consentido na prática do ato sexual, sendo a informação confirmada por Yuri em seu interrogatório.
+
+        Considerando apenas as informações expostas,
+    no momento de apresentar alegações finais,
+    a defesa técnica de Yuri deverá pugnar por sua absolvição,
+    sob o fundamento de que o consentimento da suposta ofendida,
+    na hipótese,
+    funciona como ",
+    a: "causa supralegal de exclusão da ilicitude.",
+    b: "causa legal de exclusão da ilicitude.",
+    c: "fundamento para reconhecimento da atipicidade da conduta.",
+    d: "causa supralegal de exclusão da culpabilidade.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "62"
+}, {
+    pergunta: "André, nascido em 21/11/2001, adquiriu de Francisco, em 18/11/2019, grande quantidade de droga, com o fim de vendê-la aos convidados de seu aniversário, que seria celebrado em 24/11/2019. Imediatamente após a compra, guardou a droga no armário de seu quarto.
+
+        Em 23 / 11 / 2019,
+    a partir de uma denúncia anônima e munidos do respectivo mandado de busca e apreensão deferido judicialmente,
+    policiais compareceram à residência de André,
+    onde encontraram e apreenderam a droga que era por ele armazenada.De imediato,
+    a mãe de André entrou em contato com o advogado da família.
+
+    Considerando apenas as informações expostas,
+    na Delegacia,
+    o advogado de André deverá esclarecer à família que André,
+    penalmente,
+    será considerado ",
+    a: "inimputável, devendo responder apenas por ato infracional análogo ao delito de tráfico, em razão de sua menoridade quando da aquisição da droga, com base na Teoria da Atividade adotada pelo Código Penal para definir o momento do crime.",
+    b: "inimputável, devendo responder apenas por ato infracional análogo ao delito de tráfico, tendo em vista que o Código Penal adota a Teoria da Ubiquidade para definir o momento do crime.",
+    c: "imputável, podendo responder pelo delito de tráfico de drogas, mesmo adotando o Código Penal a Teoria da Atividade para definir o momento do crime.",
+    d: "imputável, podendo responder pelo delito de associação para o tráfico, que tem natureza permanente, tendo em vista que o Código Penal adota a Teoria do Resultado para definir o momento do crime.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "63"
+}, {
+    pergunta: "Ricardo foi pronunciado pela suposta prática do crime de homicídio qualificado. No dia anterior à sessão plenária do Tribunal do Júri, o defensor público que assistia Ricardo até aquele momento acostou ao processo a folha de antecedentes criminais da vítima, matérias jornalísticas e fotografias que poderiam ser favoráveis à defesa do acusado.
+
+        O Ministério Público,
+    em sessão plenária,
+    foi surpreendido por aquele material do qual não tinha tido ciência,
+    mas o juiz presidente manteve o julgamento para a data agendada e,
+    após o defensor público mencionar a documentação acostada,
+    Ricardo foi absolvido pelos jurados,
+    em 23 / 10 / 2018(terça - feira).No dia 29 / 10 / 2018,
+    o Ministério Público apresentou recurso de apelação,
+    acompanhado das razões recursais,
+    requerendo a realização de novo júri,
+    pois a decisão dos jurados havia sido manifestamente contrária à prova dos autos.
+
+    O Tribunal de Justiça conheceu do recurso interposto e anulou o julgamento realizado,
+    determinando nova sessão plenária,
+    sob o fundamento de que a defesa se utilizou em plenário de documentos acostados fora do prazo permitido pela lei.A família de Ricardo procura você,
+    como advogado(a),
+    para patrocinar os interesses do réu.
+
+    Considerando as informações narradas,
+    você,
+    como advogado(a) de Ricardo,
+    deverá questionar a decisão do Tribunal,
+    sob o fundamento de que ",
+    a: "respeitando-se o princípio da amplitude de defesa, não existe vedação legal na juntada e utilização em plenário de documentação pela defesa no prazo mencionado.",
+    b: "diante da nulidade reconhecida, caberia ao Tribunal de Justiça realizar, diretamente, novo julgamento, e não submeter o réu a novo julgamento pelo Tribunal do Júri.",
+    c: "não poderia o Tribunal anular o julgamento com base em nulidade não arguida, mas tão só reconhecer, se fosse o caso, que a decisão dos jurados era manifestamente contrária à prova dos autos.",
+    d: "o recurso foi apresentado de maneira intempestiva, de modo que sequer deveria ter sido conhecido.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "64"
+}, {
+    pergunta: "Mariana foi vítima de um crime de apropriação indébita consumado, que teria sido praticado por Paloma. Ao tomar conhecimento de que Paloma teria sido denunciada pelo crime mencionado, inclusive sendo apresentado pelo Ministério Público o valor do prejuízo sofrido pela vítima e o requerimento de reparação do dano, Mariana passou a acompanhar o andamento processual, sem, porém, habilitar-se como assistente de acusação.
+
+        No momento em que constatou que os autos estariam conclusos para sentença,
+    Mariana procurou seu advogado para adoção das medidas cabíveis,
+    esclarecendo o temor de ver a ré absolvida e não ter seu prejuízo reparado.
+
+    O advogado de Mariana deverá informar à sua cliente que ",
+    a: "não poderá ser fixado pelo juiz valor mínimo a título de indenização, mas, em caso de sentença condenatória, poderá esta ser executada, por meio de ação civil ex delicto , por Mariana ou seu representante legal.",
+    b: "poderá ser apresentado recurso de apelação, diante de eventual sentença absolutória e omissão do Ministério Público, por parte de Mariana, por meio de seu patrono, ainda que não esteja, no momento da sentença, habilitada como assistente de acusação.",
+    c: "poderá ser fixado pelo juiz valor a título de indenização em caso de sentença condenatória, não podendo a ofendida, porém, nesta hipótese, buscar a apuração do dano efetivamente sofrido perante o juízo cível.",
+    d: "não poderá ser buscada reparação cível diante de eventual sentença absolutória, com trânsito em julgado, que reconheça não existir prova suficiente para condenação.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "65"
+}, {
+    pergunta: "Durante escuta telefônica devidamente deferida para investigar organização criminosa destinada ao contrabando de armas, policiais obtiveram a informação de que Marcelo receberia, naquele dia, grande quantidade de armamento, que seria depois repassada a Daniel, chefe de sua facção.
+
+        Diante dessa informação,
+    os policiais se dirigiram até o local combinado.Após informarem o fato à autoridade policial,
+    que o comunicou ao juízo competente,
+    eles acompanharam o recebimento do armamento por Marcelo,
+    optando por não o prender naquele momento,
+    pois aguardariam que ele se encontrasse com o chefe da sua organização para,
+    então,
+    prendê - los.
+
+    De posse do armamento,
+    Marcelo se dirigiu ao encontro de Daniel e lhe repassou as armas contrabandeadas,
+    quando,
+    então,
+    ambos foram surpreendidos e presos em flagrante pelos policiais que monitoravam a operação.Encaminhados para a Delegacia,
+    os presos entraram em contato com um advogado para esclarecimentos sobre a validade das prisões ocorridas.
+
+    Com base nos fatos acima narrados,
+    o advogado deverá esclarecer aos seus clientes que a prisão em flagrante efetuada pelos policiais foi ",
+    a: "ilegal, por se tratar de flagrante esperado.",
+    b: "legal, restando configurado o flagrante preparado.",
+    c: "legal, tratando-se de flagrante retardado.",
+    d: "ilegal, pois a conduta dos policiais dependeria de prévia autorização judicial.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "66"
+}, {
+    pergunta: "O Ministério Público ofereceu denúncia em face de Tiago e Talles, imputando-lhes a prática do crime de sequestro qualificado, arrolando como testemunhas de acusação a vítima, pessoas que presenciaram o fato, os policiais responsáveis pela prisão em flagrante, além da esposa do acusado Tiago, que teria conhecimento sobre o ocorrido.
+
+        Na audiência de instrução e julgamento,
+    por ter sido arrolada como testemunha de acusação,
+    Rosa,
+    esposa de Tiago,
+    compareceu,
+    mas demonstrou que não tinha interesse em prestar declarações.O Ministério Público insistiu na sua oitiva,
+    mesmo com outras testemunhas tendo conhecimento sobre os fatos.Temendo pelas consequências,
+    já que foi prestado o compromisso de dizer a verdade perante o magistrado,
+    Rosa disse o que tinha conhecimento,
+    mesmo contra sua vontade,
+    o que veio a prejudicar seu marido.Por ocasião dos interrogatórios,
+    Tiago,
+    que seria interrogado por último,
+    foi retirado da sala de audiência enquanto o corréu prestava suas declarações,
+    apesar de seu advogado ter participado do ato.
+
+    Com base nas previsões do Código de Processo Penal,
+    considerando apenas as informações narradas,
+    Tiago ",
+    a: "não teria direito de anular a instrução probatória com fundamento na sua ausência durante o interrogatório de Talles e nem na oitiva de Rosa na condição de testemunha, já que devidamente arrolada pelo Ministério Público.",
+    b: "teria direito de anular a instrução probatória com fundamento na ausência de Tiago no interrogatório de Talles e na oitiva de Rosa na condição de testemunha.",
+    c: "não teria direito de anular a instrução probatória com base na sua ausência no interrogatório de Talles, mas deveria questionar a oitiva de Rosa como testemunha, já que ela poderia se recusar a prestar declarações.",
+    d: "não teria direito de anular a instrução probatória com base na sua ausência no interrogatório de Talles, mas deveria questionar a oitiva de Rosa como testemunha, pois, em que pese seja obrigada a prestar declarações, deveria ser ouvida na condição de informante, sem compromisso legal de dizer a verdade.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "67"
+}, {
+    pergunta: "Durante longa investigação, o Ministério Público identificou que determinado senador seria autor de um crime de concussão no exercício do mandato, que teria sido praticado após sua diplomação. Com o indiciamento, o senador foi intimado a, se fosse de sua vontade, prestar esclarecimentos sobre os fatos no procedimento investigatório. Preocupado com as consequências, o senador procurou seu advogado para esclarecimentos.
+
+        Considerando apenas as informações narradas e com base nas previsões constitucionais,
+    o advogado deverá esclarecer que ",
+    a: "o Ministério Público não poderá oferecer denúncia em face do senador sem autorização da Casa Legislativa, pois a Constituição prevê imunidade de natureza formal aos parlamentares.",
+    b: "a denúncia poderá ser oferecida e recebida, assim como a ação penal ter regular prosseguimento, independentemente de autorização da Casa Legislativa, que não poderá determinar a suspensão do processo, considerando que o crime imputado é comum, e não de responsabilidade.",
+    c: "a denúncia não poderá ser recebida pelo Poder Judiciário sem autorização da Casa Legislativa, em razão da imunidade material prevista na Constituição, apesar de poder ser oferecida pelo Ministério Público independentemente de tal autorização.",
+    d: "a denúncia poderá ser oferecida e recebida independentemente de autorização parlamentar, mas deverá ser dada ciência à Casa Legislativa respectiva, que poderá, seguidas as exigências, até a decisão final, sustar o andamento da ação.",
+    certo: "d",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "68"
+}, {
+    pergunta: "Caio foi denunciado pela suposta prática do crime de estupro de vulnerável. Ocorre que, apesar da capitulação delitiva, a denúncia apresentava-se confusa na narrativa dos fatos, inclusive não sendo indicada qual seria a idade da vítima. Logo após a citação, Caio procurou seu advogado para esclarecimentos, destacando a dificuldade na compreensão dos fatos imputados.
+
+        O advogado de Caio,
+    constatando que a denúncia estava inepta,
+    deve esclarecer ao cliente que,
+    sob o ponto de vista técnico,
+    com esse fundamento poderia buscar ",
+    a: "a rejeição da denúncia, podendo o Ministério Público apresentar recurso em sentido estrito em caso de acolhimento do pedido pelo magistrado, ou oferecer, posteriormente, nova denúncia.",
+    b: "sua absolvição sumária, podendo o Ministério Público apresentar recurso de apelação em caso de acolhimento do pedido pelo magistrado, ou oferecer, posteriormente, nova denúncia.",
+    c: "sua absolvição sumária, podendo o Ministério Público apresentar recurso em sentido estrito em caso de acolhimento do pedido pelo magistrado, mas, transitada em julgado a decisão, não poderá ser oferecida nova denúncia com base nos mesmos fatos.",
+    d: "a rejeição da denúncia, podendo o Ministério Público apresentar recurso de apelação em caso de acolhimento do pedido pelo magistrado, mas, uma vez transitada em julgado a decisão, não caberá oferecimento de nova denúncia.",
+    certo: "a",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "69"
+}, {
+    pergunta: "Gervásia é empregada na Lanchonete Pará desde fevereiro de 2018, exercendo a função de atendente e recebendo o valor correspondente a um salário mínimo por mês. Acerca da cláusula compromissória de arbitragem que o empregador pretende inserir no contrato da empregada, de acordo com a CLT, assinale a afirmativa correta.",
+    a: "A inserção não é possível, porque, no Direito do Trabalho, não cabe arbitragem em lides individuais.",
+    b: "A cláusula compromissória de arbitragem não poderá ser inserida no contrato citado, em razão do salário recebido pela empregada.",
+    c: "Não há mais óbice à inserção de cláusula compromissória de arbitragem nos contratos de trabalho, inclusive no de Gervásia.",
+    d: "A cláusula de arbitragem pode ser inserida em todos os contratos de trabalho, sendo admitida de forma expressa ou tácita.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "70"
+}, {
+    pergunta: "Paulo trabalhou para a Editora Livro Legal Ltda . de 10/12/2017 a 30/08/2018 sem receber as verbas rescisórias ao final do contrato, sob a alegação de dificuldades financeiras da empregadora. Em razão disso, ele pretende ajuizar ação trabalhista e procurou você, como advogado(a). Sabe-se que a empregadora de Paulo estava sob o controle e a direção da sócia majoritária, a Editora Mundial Ltda . Assinale a afirmativa que melhor atende à necessidade e à segurança de satisfazer o crédito do seu cliente.",
+    a: "Poderá incluir a sociedade empresária controladora no polo passivo da demanda, e esta responderá solidariamente com a empregadora, pois se trata de grupo econômico.",
+    b: "Poderá incluir a sociedade empresária controladora no polo passivo da demanda, e esta responderá subsidiariamente com a empregadora, pois se trata de grupo econômico.",
+    c: "Não há relação de responsabilização entre as sociedades empresárias, uma vez que possuem personalidades jurídicas distintas, o que afasta a caracterização de grupo econômico.",
+    d: "Não se trata de grupo econômico, porque a mera identidade de sócios não o caracteriza; portanto, descabe a responsabilização da segunda sociedade empresária.",
+    certo: "a",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "71"
+}, {
+    pergunta: "Enzo é professor de Matemática em uma escola particular, em que é empregado há 8 anos. Após 2 anos de namoro e 1 ano de noivado, irá se casar com Carla, advogada, empregada em um escritório de advocacia há 5 anos. Sobre o direito à licença pelo casamento, de acordo com a CLT, assinale a afirmativa correta.",
+    a: "O casal poderá faltar aos seus empregos respectivos por até 3 dias úteis para as núpcias.",
+    b: "Carla, por ser advogada, terá afastamento de 5 dias e Enzo, por ser professor, poderá faltar por 2 dias corridos.",
+    c: "Enzo poderá faltar ao serviço por 9 dias, enquanto Carla poderá se ausentar por 3 dias consecutivos.",
+    d: "Não há previsão específica, devendo ser acertado o período de afastamento com o empregador, observado o limite de 10 dias.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "72"
+}, {
+    pergunta: "Rafaela trabalha em uma empresa de calçados. Apesar de sua formação como estoquista, foi preterida em uma vaga para tal por ser mulher, o que seria uma promoção e geraria aumento salarial. Um mês depois, a empresa exigiu que todas as funcionárias do sexo feminino apresentassem atestado médico de gravidez.
+
+        Rafaela,
+    4 meses após esse fato,
+    engravidou e,
+    após apresentação de atestado médico,
+    teve a jornada reduzida em duas horas,
+    por se tratar de uma gestação delicada,
+    o que acarretou a redução salarial proporcional.Sete meses após o parto,
+    Rafaela foi dispensada.
+
+    Como advogado(a) de Rafaela,
+    de acordo com a legislação trabalhista em vigor,
+    assinale a opção que contém todas as violações aos direitos trabalhistas de Rafaela.
+    ",
+    a: "Recusa, fundamentada no sexo, da promoção para a função de estoquista.",
+    b: "Recusa, fundamentada no sexo, da promoção para a função de estoquista, exigência de atestado de gravidez e redução salarial.",
+    c: "Recusa, fundamentada no sexo, da promoção para a função de estoquista, exigência de atestado de gravidez, redução salarial e dispensa dentro do período de estabilidade gestante.",
+    d: "Dispensa dentro do período de estabilidade gestante.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "73"
+}, {
+    pergunta: "Eduardo e Carla são empregados do Supermercado Praiano Ltda., exercendo a função de caixa. Após 10 meses de vigência do contrato, ambos receberam aviso prévio em setembro de 2019, para ser cumprido com trabalho. Contudo, 17 dias após, o Supermercado resolveu reconsiderar a sua decisão e manter Eduardo e Carla no seu quadro de empregados.
+
+        Ocorre que ambos não desejam prosseguir,
+    porque,
+    nesse período,
+    distribuíram seus currículos e conseguiram a promessa de outras colocações num concorrente do Supermercado Praiano,
+    com salário um pouco superior.
+
+    Diante da situação posta e dos termos da CLT,
+    assinale a afirmativa correta.
+    ",
+    a: "Os empregados não são obrigados a aceitar a retratação, que só gera efeito se houver consenso entre empregado e empregador.",
+    b: "Os empregados são obrigados a aceitá-la, uma vez que a retratação foi feita pelo empregador ainda no período do aviso prévio.",
+    c: "A retratação deve ser obrigatoriamente aceita pela parte contrária se o aviso prévio for trabalhado, e, se for indenizado, há necessidade de concordância das partes.",
+    d: "O empregador jamais poderia ter feito isso, porque a CLT não prevê a possibilidade de reconsideração de aviso prévio, que se torna irreversível a partir da concessão.",
+    certo: "a",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "74"
+}, {
+    pergunta: "Renato é um empregado doméstico que atua como caseiro no sítio de lazer do seu empregador. Contudo, a CTPS de Renato foi assinada como sendo operador de máquinas da empresa de titularidade do seu empregador. Renato tem receio de que, no futuro, não possa comprovar experiência na função de empregado doméstico e, por isso, intenciona ajuizar reclamação trabalhista para regularizar a situação.
+
+        Considerando a situação narrada e o entendimento consolidado do TST, assinale a afirmativa correta.
+        ",
+    a: "Caso comprove que, de fato, é doméstico, Renato conseguirá a retificação na CTPS, pois as anotações nela lançadas têm presunção relativa.",
+    b: "Somente o salário poderia ser objeto de demanda judicial para se comprovar que o empregado recebia valor superior ao anotado, sendo que a alteração na função não é prevista, e a demanda não terá sucesso.",
+    c: "Caso Renato comprove que é doméstico, o pedido será julgado procedente, mas a alteração será feita com modulação de efeitos, com retificação da data da sentença em diante.",
+    d: "Renato não terá sucesso na sua reclamação trabalhista, porque a anotação feita na carteira profissional tem presunção absoluta.",
+    certo: "a",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "75"
+}, {
+    pergunta: "Após tentar executar judicialmente seu ex-empregador (a empresa Tecidos Suaves Ltda.) sem sucesso, o credor trabalhista Rodrigo instaurou o incidente de desconsideração de personalidade jurídica, objetivando direcionar a execução contra os sócios da empresa, o que foi aceito pelo magistrado. De acordo com a CLT, assinale a opção que indica o ato seguinte.",
+    a: "O sócio será citado por oficial de justiça para pagar a dívida em 48 horas.",
+    b: "O sócio será citado para manifestar-se e requerer as provas cabíveis no prazo de 15 dias.",
+    c: "O juiz determinará de plano o bloqueio de bens e valores do sócio, posto que desnecessária a sua citação ou intimação.",
+    d: "Será conferida vista prévia ao Ministério Público do Trabalho, para que o parquet diga se concorda com a desconsideração pretendida.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "76"
+}, {
+    pergunta: "José da Silva, que trabalhou em determinada sociedade empresária de 20/11/2018 a 30/04/2019, recebeu, apenas parcialmente, as verbas rescisórias, não tendo recebido algumas horas extras e reflexos. A sociedade empresária pretende pagar ao ex-empregado o que entende devido, mas também quer evitar uma possível ação trabalhista.
+
+        Sobre a hipótese,
+    na qualidade de advogado(a) da sociedade empresária,
+    assinale a afirmativa correta.
+    ",
+    a: "Deverá ser indicado e custeado um advogado para o empregado, a fim de que seja ajuizada uma ação para, então, comparecerem para um acordo, que já estará previamente entabulado no valor pretendido pela empresa.",
+    b: "Deverá ser instaurado um processo de homologação de acordo extrajudicial, proposto em petição conjunta, mas com cada parte representada obrigatoriamente por advogado diferente.",
+    c: "Deverá ser instaurado um processo de homologação de acordo extrajudicial, proposto em petição conjunta, mas cada parte poderá ser representada por advogado, ou não, já que, na Justiça do Trabalho, vigora o jus postulandi .",
+    d: "Deverá ser instaurado um processo de homologação de acordo extrajudicial, proposto em petição conjunta, mas com advogado único representando ambas as partes, por se tratar de acordo extrajudicial.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "77"
+}, {
+    pergunta: "Você foi contratado(a) para atuar nas seguintes ações trabalhistas:
+
+        (i) uma ação de cumprimento,
+    como advogado da parte autora;
+
+    (ii) uma reclamação plúrima,
+    também como advogado da parte autora;
+
+    (iii) uma reclamação trabalhista movida por João,
+    ex - empregado de uma empresa,
+    autor da ação;
+
+    (iv) uma reclamação trabalhista,
+    por uma sociedade empresária,
+    ré na ação.
+
+    Sobre essas ações,
+    de acordo com a legislação trabalhista em vigor,
+    assinale a afirmativa correta.
+    ",
+    a: "Tanto na ação de cumprimento como na ação plúrima, todos os empregados autores deverão obrigatoriamente estar presentes. O mesmo deve ocorrer com João. Já a sociedade empresária poderá se fazer representar por preposto não empregado da ré.",
+    b: "O sindicato de classe da categoria poderá representar os empregados nas ações plúrima e de cumprimento. João deverá estar presente, em qualquer hipótese, de forma obrigatória. A sociedade empresária tem que se fazer representar por preposto, que não precisa ser empregado da ré.",
+    c: "Nas ações plúrima e de cumprimento, a parte autora poderá se fazer representar pelo Sindicato da categoria. João deverá estar presente, mas, por doença ou motivo ponderoso comprovado, poderá se fazer representar por empregado da mesma profissão ou pelo seu sindicato. Na ação em face da sociedade empresária, o preposto não precisará ser empregado da ré.",
+    d: "O sindicato da categoria poderá representar os empregados nas ações plúrima e de cumprimento. João deverá estar presente, mas, por doença ou motivo ponderoso comprovado, poderá se fazer representar por empregado da mesma profissão ou pelo seu sindicato. Na ação em face da sociedade empresária, o preposto deverá, obrigatoriamente, ser empregado da ré.",
+    certo: "c",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "78"
+}, {
+    pergunta: "Em setembro de 2019, durante a audiência de um caso que envolvia apenas pedido de adicional de insalubridade, o Juiz do Trabalho determinou a realização de perícia e que a reclamada antecipasse os honorários periciais. Inconformada com essa decisão, a sociedade empresária impetrou mandado de segurança contra esse ato judicial, mas o TRT, em decisão colegiada, não concedeu a segurança.
+
+        Caso a sociedade empresária pretenda recorrer dessa decisão,
+    assinale a opção que indica a medida recursal da qual deverá se valer.
+    ",
+    a: "Agravo de Instrumento.",
+    b: "Recurso Ordinário.",
+    c: "Agravo de Petição.",
+    d: "Recurso de Revista.",
+    certo: "b",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "79"
+}, {
+    pergunta: "Heloísa era empregada doméstica e ajuizou, em julho de 2019, ação contra sua ex-empregadora, Selma Reis. Após regularmente instruída, foi prolatada sentença julgando o pedido procedente em parte. A sentença foi proferida de forma líquida, apurando o valor devido de R$ 9.000,00 (nove mil reais) e custas de R$ 180,00 (cento e oitenta reais).
+
+        A ex - empregadora,
+    não se conformando com a decisão,
+    pretende dela recorrer.Indique a opção que corresponde ao preparo que a ex - empregadora deverá realizar para viabilizar o seu recurso,
+    sabendo - se que ela não requereu gratuidade de justiça porque tem boas condições financeiras.
+    ",
+    a: "Tratando-se de empregador doméstico, só haverá necessidade de recolher as custas.",
+    b: "Deverá recolher integralmente as custas e o depósito recursal.",
+    c: "Por ser empregador doméstico, basta efetuar o recolhimento do depósito recursal.",
+    d: "Deverá recolher as custas integralmente e metade do depósito recursal.",
+    certo: "d",
+    ano: "Exame de Ordem Unificado - XXXI (FGV) - 2020",
+    questao: "80"
 },
