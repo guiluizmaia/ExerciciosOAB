@@ -9,10 +9,23 @@ export default () => {
           <Text style = { StyleSheet.pergunta } > Pergunta </Text> 
         </View> 
         <View style = { StyleSheet.VResposta } >
-          <TouchableOpacity style = { StyleSheet.a } > < Text > A - </Text></TouchableOpacity >
-          <TouchableOpacity style = { StyleSheet.b } > < Text > B - </Text></TouchableOpacity >
-          <TouchableOpacity style = { StyleSheet.c } > < Text > C - </Text></TouchableOpacity >
-          <TouchableOpacity style = { StyleSheet.d } > < Text > D - </Text></TouchableOpacity>
+          
+          <TouchableOpacity style = { StyleSheet.a }> 
+            <Text> A - </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity style = { StyleSheet.b }> 
+            <Text> B - </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity style = { StyleSheet.c }> 
+            <Text> C - </Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity style = { StyleSheet.d }> 
+            <Text> D - </Text>
+          </TouchableOpacity>
+
         </View> 
       </ScrollView>
     );
