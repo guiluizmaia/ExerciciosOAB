@@ -29,8 +29,9 @@ export default () => {
   ])
 
   return ( 
-      <ScrollView>
-        <View style={{flex:1, alignItems: 'center', backgroundColor: '#F0F8FF',}}>
+    <View style={{backgroundColor: '#111', flex: 1,}}>
+      <ScrollView style={{height: '90%'}}>
+        <View style={{flex:1, alignItems: 'center',}}>
         <View style = { styles.VPergunta } >
           <Text style = { styles.ano } > {perguntas[1].ano} </Text> 
           <Text style = { styles.pergunta } > {perguntas[1].pergunta} </Text> 
@@ -122,30 +123,31 @@ export default () => {
           </TouchableOpacity>
           } 
 		</View> 
-        </View>
+    </View>                
+       
+    </ScrollView>
 
-          <TouchableOpacity style = { styles.enviar }> 
-            <Text> RESPONDER </Text>
-          </TouchableOpacity>
-          
-        
-      </ScrollView>
+    <TouchableOpacity style = { styles.enviar }> 
+        <Text> RESPONDER </Text>
+    </TouchableOpacity> 
+    </View>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
+    
     VPergunta: {
         marginTop: 50,
         justifyContent: 'center',
         alignItems: 'center', 
-		width: '92%',
-		
+		    width: '92%',
+        backgroundColor: '#fff',
+        borderRadius: 10,
+        borderTopLeftRadius: 0,        
+        padding: 15
     },
     VResposta: {
-		marginTop: 30,
+		marginTop: 20,
 		justifyContent: 'center',
         alignItems: 'center' 
     },
@@ -153,7 +155,9 @@ const styles = StyleSheet.create({
         color: '#9b111e',
     },
     pergunta: {
-
+		fontWeight: 'bold',
+    fontSize: 15,
+    textAlign: 'center'
     },
     sem: {
       borderRadius: 6,
