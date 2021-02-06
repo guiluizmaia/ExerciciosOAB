@@ -1,11 +1,13 @@
 import React, { useState, useRef } from "react";
 import { View, ScrollView, Text, Dimensions, StyleSheet, TouchableOpacity } from "react-native";
+import { FontAwesome, FontAwesome5 } from '@expo/vector-icons';
 
 const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 
 export default () => {
   const [selecionado, setSelecionado] = useState("");
-  
+  const [acertou, setAcertou] = useState(2);
+
   const [perguntas, setPerguntas] = useState([
     {
       pergunta: "Havendo indícios de que Sara obteve inscrição na Ordem dos Advogados do Brasil mediante prova falsa, foi instaurado contra ela processo disciplinar. Sobre o tema, assinale a afirmativa correta.",
@@ -29,28 +31,25 @@ export default () => {
   ])
 
   return ( 
-    <View style={{backgroundColor: '#111', flex: 1,}}>
-      <ScrollView style={{height: '90%'}}>
+    <View style={{flex: 1,}}>
+		
+      <ScrollView>
+              
         <View style={{flex:1, alignItems: 'center',}}>
+        
+		<View style={{ alignItems: 'center', marginTop: 50}}>
+			<FontAwesome5 name="gripfire" size={35} color='#ff7f00' />
+			<Text style = { styles.seq } > 0 </Text> 
+		</View>
         <View style = { styles.VPergunta } >
           <Text style = { styles.ano } > {perguntas[1].ano} </Text> 
           <Text style = { styles.pergunta } > {perguntas[1].pergunta} </Text> 
         </View> 
+		    <View style = {{width: '93%', height: 4, backgroundColor: '#DCDCDC',}}></View>
         <View style = { styles.VResposta } >
           
-          {selecionado == "a" &&
+        {selecionado == "a" && acertou == 2 &&
           <TouchableOpacity style = { styles.sele } onPress={() => {
-            if(selecionado == "a"){
-              setSelecionado("");
-            }else{
-              setSelecionado("a")
-            }
-            }}> 
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
-          </TouchableOpacity>
-          } 
-          {selecionado != "a" &&
-          <TouchableOpacity style = { styles.sem } onPress={() => {
             if(selecionado == "a"){
               setSelecionado("");
             }else{
@@ -59,8 +58,34 @@ export default () => {
             <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
           </TouchableOpacity>
           } 
+          {selecionado != "a" && acertou == 2 &&
+          <TouchableOpacity style = { styles.sem } onPress={() => {
+            if(selecionado == "a"){
+              setSelecionado("");
+            }else{
+              setSelecionado("a")
+            }}}>
+            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+          </TouchableOpacity>
+          } 
+          {selecionado == "a" && acertou == 1 &&
+          <TouchableOpacity style = { styles.sele } > 
+            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+          </TouchableOpacity>
+          }
+          {selecionado != "a" && perguntas[1].certo == "a" && acertou == 0 &&
+          <TouchableOpacity style = { styles.sele } > 
+            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+          </TouchableOpacity>
+          }  
+          {selecionado == "a" && acertou == 0 &&
+          <TouchableOpacity style = { styles.errou }> 
+            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+          </TouchableOpacity>
+          }  
+ 
           
-          {selecionado == "b" &&
+          {selecionado == "b" && acertou == 2 &&
           <TouchableOpacity style = { styles.sele } onPress={() => {
             if(selecionado == "b"){
               setSelecionado("");
@@ -70,7 +95,7 @@ export default () => {
             <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
           </TouchableOpacity>
           } 
-          {selecionado != "b" &&
+          {selecionado != "b" && acertou == 2 &&
           <TouchableOpacity style = { styles.sem } onPress={() => {
             if(selecionado == "b"){
               setSelecionado("");
@@ -80,18 +105,33 @@ export default () => {
             <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
           </TouchableOpacity>
           } 
+          {selecionado == "b" && acertou == 1 &&
+          <TouchableOpacity style = { styles.sele } > 
+            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+          </TouchableOpacity>
+          }
+          {selecionado != "b" && perguntas[1].certo == "b" && acertou == 0 &&
+          <TouchableOpacity style = { styles.sele }> 
+            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+          </TouchableOpacity>
+          }  
+          {selecionado == "b" && acertou == 0 &&
+          <TouchableOpacity style = { styles.errou } > 
+            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+          </TouchableOpacity>
+          }  
 
-          {selecionado == "c" &&
+        {selecionado == "c" && acertou == 2 &&
           <TouchableOpacity style = { styles.sele } onPress={() => {
             if(selecionado == "c"){
               setSelecionado("");
             }else{
               setSelecionado("c")
-            }}}>
+            }}}> 
             <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
           </TouchableOpacity>
           } 
-          {selecionado != "c" &&
+          {selecionado != "c" && acertou == 2 &&
           <TouchableOpacity style = { styles.sem } onPress={() => {
             if(selecionado == "c"){
               setSelecionado("");
@@ -101,18 +141,34 @@ export default () => {
             <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
           </TouchableOpacity>
           } 
+          {selecionado == "c" && acertou == 1 &&
+          <TouchableOpacity style = { styles.sele }> 
+            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+          </TouchableOpacity>
+          }
+          {selecionado != "c" && perguntas[1].certo == "c" && acertou == 0 &&
+          <TouchableOpacity style = { styles.sele } > 
+            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+          </TouchableOpacity>
+          }  
+          {selecionado == "c" && acertou == 0 &&
+          <TouchableOpacity style = { styles.errou } > 
+            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+          </TouchableOpacity>
+          }  
 
-          {selecionado == "d" &&
+
+        {selecionado == "d" && acertou == 2 &&
           <TouchableOpacity style = { styles.sele } onPress={() => {
             if(selecionado == "d"){
               setSelecionado("");
             }else{
               setSelecionado("d")
-            }}}>
+            }}}> 
             <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
           </TouchableOpacity>
           } 
-          {selecionado != "d" &&
+          {selecionado != "d" && acertou == 2 &&
           <TouchableOpacity style = { styles.sem } onPress={() => {
             if(selecionado == "d"){
               setSelecionado("");
@@ -122,14 +178,61 @@ export default () => {
             <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
           </TouchableOpacity>
           } 
+          {selecionado == "d" && acertou == 1 &&
+          <TouchableOpacity style = { styles.sele }> 
+            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+          </TouchableOpacity>
+          }
+          {selecionado != "d" && perguntas[1].certo == "d" && acertou == 0 &&
+          <TouchableOpacity style = { styles.sele } > 
+            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+          </TouchableOpacity>
+          }  
+          {selecionado == "d" && acertou == 0 &&
+          <TouchableOpacity style = { styles.errou }> 
+            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+          </TouchableOpacity>
+          }  
+
+
+          {acertou == 1 &&
+            <Text>ACERTOU ! !</Text>
+          }
+          {acertou == 0 &&
+            <Text>ERROU ! !</Text>
+          }
+		
 		</View> 
     </View>                
        
     </ScrollView>
-
-    <TouchableOpacity style = { styles.enviar }> 
+      {acertou == 2 &&
+      <TouchableOpacity style = { styles.enviarSem } onPress={() =>{
+          if (selecionado == perguntas[1].certo){
+            setAcertou(1);
+          }
+          else if (selecionado != perguntas[1].certo){
+            setAcertou(0);
+          }
+        }}> 
         <Text> RESPONDER </Text>
-    </TouchableOpacity> 
+        <FontAwesome name="pencil-square-o" size={24} color="black" />
+      </TouchableOpacity>
+      }
+      {acertou != 2 &&
+      <TouchableOpacity style = { styles.enviarSem } onPress={() =>{
+          if (selecionado == perguntas[1].certo){
+            setAcertou(1);
+          }
+          else{
+            setAcertou(0);
+          }
+        }}> 
+        <Text> PROXIMA </Text>
+        <FontAwesome name="pencil-square-o" size={24} color="black" />
+      </TouchableOpacity>
+      }
+       
     </View>
     );
 }
@@ -137,7 +240,7 @@ export default () => {
 const styles = StyleSheet.create({
     
     VPergunta: {
-        marginTop: 50,
+        marginTop: 10,
         justifyContent: 'center',
         alignItems: 'center', 
 		    width: '92%',
@@ -155,7 +258,7 @@ const styles = StyleSheet.create({
         color: '#9b111e',
     },
     pergunta: {
-		fontWeight: 'bold',
+		//fontWeight: 'bold',
     fontSize: 15,
     textAlign: 'center'
     },
@@ -175,12 +278,23 @@ const styles = StyleSheet.create({
       marginBottom: 20,
 	    justifyContent: 'center',
     },
+    errou:{
+      borderRadius: 6,
+      backgroundColor: '#ff4040',
+      width: '90%',
+      minHeight: 30,
+      marginBottom: 20,
+	    justifyContent: 'center',
+    },
 	txtpergunta: {
 		margin: 10,
 	},
-    enviar: {
+	seq: {
+		fontSize: 20,
+	},
+	enviarSem: {
       borderRadius: 6,
-      backgroundColor: '#90ee90',
+      backgroundColor: '#90EE90',
       width: '100%',
       height: 60,
 	    justifyContent: 'center',
