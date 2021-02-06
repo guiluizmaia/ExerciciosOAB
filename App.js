@@ -7,6 +7,8 @@ const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 export default () => {
   const [selecionado, setSelecionado] = useState("");
   const [acertou, setAcertou] = useState(2);
+  const [ofensiva, setOfensiva] = useState(0);
+  const [aleat, setAleat] = useState(1);
 
   const [perguntas, setPerguntas] = useState([
     {
@@ -39,11 +41,11 @@ export default () => {
         
 		<View style={{ alignItems: 'center', marginTop: 50}}>
 			<FontAwesome5 name="gripfire" size={35} color='#ff7f00' />
-			<Text style = { styles.seq } > 0 </Text> 
+			<Text style = { styles.seq } > {ofensiva} </Text> 
 		</View>
         <View style = { styles.VPergunta } >
-          <Text style = { styles.ano } > {perguntas[1].ano} </Text> 
-          <Text style = { styles.pergunta } > {perguntas[1].pergunta} </Text> 
+          <Text style = { styles.ano } > {perguntas[aleat].ano} </Text> 
+          <Text style = { styles.pergunta } > {perguntas[aleat].pergunta} </Text> 
         </View> 
 		    <View style = {{width: '93%', height: 4, backgroundColor: '#DCDCDC',}}></View>
         <View style = { styles.VResposta } >
@@ -55,7 +57,7 @@ export default () => {
             }else{
               setSelecionado("a")
             }}}> 
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+            <Text style = {styles.txtpergunta}> A - {perguntas[aleat].a} </Text>
           </TouchableOpacity>
           } 
           {selecionado != "a" && acertou == 2 &&
@@ -65,22 +67,22 @@ export default () => {
             }else{
               setSelecionado("a")
             }}}>
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+            <Text style = {styles.txtpergunta}> A - {perguntas[aleat].a} </Text>
           </TouchableOpacity>
           } 
           {selecionado == "a" && acertou == 1 &&
           <TouchableOpacity style = { styles.sele } > 
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+            <Text style = {styles.txtpergunta}> A - {perguntas[aleat].a} </Text>
           </TouchableOpacity>
           }
-          {selecionado != "a" && perguntas[1].certo == "a" && acertou == 0 &&
+          {selecionado != "a" && perguntas[aleat].certo == "a" && acertou == 0 &&
           <TouchableOpacity style = { styles.sele } > 
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+            <Text style = {styles.txtpergunta}> A - {perguntas[aleat].a} </Text>
           </TouchableOpacity>
           }  
           {selecionado == "a" && acertou == 0 &&
           <TouchableOpacity style = { styles.errou }> 
-            <Text style = {styles.txtpergunta}> A - {perguntas[1].a} </Text>
+            <Text style = {styles.txtpergunta}> A - {perguntas[aleat].a} </Text>
           </TouchableOpacity>
           }  
  
@@ -92,7 +94,7 @@ export default () => {
             }else{
               setSelecionado("b")
             }}}> 
-            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+            <Text style = {styles.txtpergunta}> B - {perguntas[aleat].b} </Text>
           </TouchableOpacity>
           } 
           {selecionado != "b" && acertou == 2 &&
@@ -102,22 +104,22 @@ export default () => {
             }else{
               setSelecionado("b")
             }}}>
-            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+            <Text style = {styles.txtpergunta}> B - {perguntas[aleat].b} </Text>
           </TouchableOpacity>
           } 
           {selecionado == "b" && acertou == 1 &&
           <TouchableOpacity style = { styles.sele } > 
-            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+            <Text style = {styles.txtpergunta}> B - {perguntas[aleat].b} </Text>
           </TouchableOpacity>
           }
-          {selecionado != "b" && perguntas[1].certo == "b" && acertou == 0 &&
+          {selecionado != "b" && perguntas[aleat].certo == "b" && acertou == 0 &&
           <TouchableOpacity style = { styles.sele }> 
-            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+            <Text style = {styles.txtpergunta}> B - {perguntas[aleat].b} </Text>
           </TouchableOpacity>
           }  
           {selecionado == "b" && acertou == 0 &&
           <TouchableOpacity style = { styles.errou } > 
-            <Text style = {styles.txtpergunta}> B - {perguntas[1].b} </Text>
+            <Text style = {styles.txtpergunta}> B - {perguntas[aleat].b} </Text>
           </TouchableOpacity>
           }  
 
@@ -128,7 +130,7 @@ export default () => {
             }else{
               setSelecionado("c")
             }}}> 
-            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+            <Text style = {styles.txtpergunta}> C - {perguntas[aleat].c} </Text>
           </TouchableOpacity>
           } 
           {selecionado != "c" && acertou == 2 &&
@@ -138,22 +140,22 @@ export default () => {
             }else{
               setSelecionado("c")
             }}}>
-            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+            <Text style = {styles.txtpergunta}> C - {perguntas[aleat].c} </Text>
           </TouchableOpacity>
           } 
           {selecionado == "c" && acertou == 1 &&
           <TouchableOpacity style = { styles.sele }> 
-            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+            <Text style = {styles.txtpergunta}> C - {perguntas[aleat].c} </Text>
           </TouchableOpacity>
           }
-          {selecionado != "c" && perguntas[1].certo == "c" && acertou == 0 &&
+          {selecionado != "c" && perguntas[aleat].certo == "c" && acertou == 0 &&
           <TouchableOpacity style = { styles.sele } > 
-            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+            <Text style = {styles.txtpergunta}> C - {perguntas[aleat].c} </Text>
           </TouchableOpacity>
           }  
           {selecionado == "c" && acertou == 0 &&
           <TouchableOpacity style = { styles.errou } > 
-            <Text style = {styles.txtpergunta}> C - {perguntas[1].c} </Text>
+            <Text style = {styles.txtpergunta}> C - {perguntas[aleat].c} </Text>
           </TouchableOpacity>
           }  
 
@@ -165,7 +167,7 @@ export default () => {
             }else{
               setSelecionado("d")
             }}}> 
-            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+            <Text style = {styles.txtpergunta}> D - {perguntas[aleat].d} </Text>
           </TouchableOpacity>
           } 
           {selecionado != "d" && acertou == 2 &&
@@ -175,32 +177,38 @@ export default () => {
             }else{
               setSelecionado("d")
             }}}>
-            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+            <Text style = {styles.txtpergunta}> D - {perguntas[aleat].d} </Text>
           </TouchableOpacity>
           } 
           {selecionado == "d" && acertou == 1 &&
           <TouchableOpacity style = { styles.sele }> 
-            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+            <Text style = {styles.txtpergunta}> D - {perguntas[aleat].d} </Text>
           </TouchableOpacity>
           }
-          {selecionado != "d" && perguntas[1].certo == "d" && acertou == 0 &&
+          {selecionado != "d" && perguntas[aleat].certo == "d" && acertou == 0 &&
           <TouchableOpacity style = { styles.sele } > 
-            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+            <Text style = {styles.txtpergunta}> D - {perguntas[aleat].d} </Text>
           </TouchableOpacity>
           }  
           {selecionado == "d" && acertou == 0 &&
           <TouchableOpacity style = { styles.errou }> 
-            <Text style = {styles.txtpergunta}> D - {perguntas[1].d} </Text>
+            <Text style = {styles.txtpergunta}> D - {perguntas[aleat].d} </Text>
           </TouchableOpacity>
           }  
 
 
           {acertou == 1 &&
-            <Text>ACERTOU ! !</Text>
-          }
+            <View style = {{justifyContent: 'center', alignItems: 'center', marginBottom: 10}}>
+			        <Text style = {{color:'#90ee90', fontSize:24}}>VOCÊ ACERTOU</Text>
+			        <FontAwesome name="smile-o" size={35} color="#90ee90" />
+			      </View>
+		      }
           {acertou == 0 &&
-            <Text>ERROU ! !</Text>
-          }
+			      <View style = {{justifyContent: 'center', alignItems: 'center', marginBottom: 10}}>
+              <Text style = {{color:'#ff4040', fontSize:24}}>VOCÊ ERROU</Text>
+			        <FontAwesome name="frown-o" size={35} color="#ff4040" />
+			      </View>
+		      }
 		
 		</View> 
     </View>                
@@ -208,11 +216,13 @@ export default () => {
     </ScrollView>
       {acertou == 2 &&
       <TouchableOpacity style = { styles.enviarSem } onPress={() =>{
-          if (selecionado == perguntas[1].certo){
+          if (selecionado == perguntas[aleat].certo){
             setAcertou(1);
+            setOfensiva(ofensiva + 1);
           }
-          else if (selecionado != perguntas[1].certo){
+          else if (selecionado != perguntas[aleat].certo){
             setAcertou(0);
+            setOfensiva(0);
           }
         }}> 
         <Text> RESPONDER </Text>
@@ -220,16 +230,9 @@ export default () => {
       </TouchableOpacity>
       }
       {acertou != 2 &&
-      <TouchableOpacity style = { styles.enviarSem } onPress={() =>{
-          if (selecionado == perguntas[1].certo){
-            setAcertou(1);
-          }
-          else{
-            setAcertou(0);
-          }
-        }}> 
+      <TouchableOpacity style = { styles.enviarSem }> 
         <Text> PROXIMA </Text>
-        <FontAwesome name="pencil-square-o" size={24} color="black" />
+        <FontAwesome name="arrow-circle-right" size={24} color="black" />
       </TouchableOpacity>
       }
        
