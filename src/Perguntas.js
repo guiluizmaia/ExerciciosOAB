@@ -6,7 +6,9 @@ const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 
 export default ({route , navigation}) => {
   const {ofens} = route.params;
+  const {cont} = route.params;
   const [ofensiva, setOfensiva] = useState(ofens);
+  const [contagem, setContagem] = useState(cont)
   const [selecionado, setSelecionado] = useState("");
   const [acertou, setAcertou] = useState(2);  
   const [aleat, setAleat] = useState(Math.floor(Math.random() * 160));
@@ -1661,13 +1663,25 @@ export default ({route , navigation}) => {
       </TouchableOpacity>
       }
 
-      {acertou != 2 &&
-      <TouchableOpacity style = { styles.enviarSem } onPress={() => navigation.reset({
-        index: 1,
+      {acertou != 2 && contagem != 4 &&
+      <TouchableOpacity style = { styles.enviarSem } onPress={() => {navigation.reset({
+        index: 0,
         routes: [{ name: 'Home'}, 
-                  { name: 'Perguntas', params: { ofens: ofensiva }}]
+                  { name: 'Perguntas', params: { ofens: ofensiva , cont: contagem + 1 }},]
 		
-      })}> 
+      })}}> 
+        <Text> PROXIMA </Text>
+        <FontAwesome name="arrow-circle-right" size={24} color="black" />
+      </TouchableOpacity>
+      }
+	  
+	  {acertou != 2 && contagem == 4 &&
+      <TouchableOpacity style = { styles.enviarSem } onPress={() => {navigation.reset({
+        index: 0,
+        routes: [{ name: 'Home'}, 
+                  { name: 'Prop', params: { ofens: ofensiva }},]
+		
+      })}}> 
         <Text> PROXIMA </Text>
         <FontAwesome name="arrow-circle-right" size={24} color="black" />
       </TouchableOpacity>
