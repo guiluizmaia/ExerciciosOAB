@@ -2,16 +2,16 @@ import React, { useState, useRef } from "react";
 import { View, ScrollView, Text, Dimensions, StyleSheet, TouchableOpacity } from "react-native";
 import { FontAwesome, FontAwesome5 } from '@expo/vector-icons';
 
-const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 
 export default ({route , navigation}) => {
   const {ofens} = route.params;
   const [ofensiva, setOfensiva] = useState(ofens);
-   
-  return ( 
-    <View style={{flex: 1,}}>
-        <View>
+    
 
+  return ( 
+    <View style={{flex: 1,  justifyContent: 'center', alignItems: 'center', }}>
+        <View style={{flex: 6,}}>
+            <Text>teste</Text>
         </View>
 
         <TouchableOpacity style = { styles.enviarSem } onPress={() => navigation.reset({
@@ -32,6 +32,7 @@ export default ({route , navigation}) => {
 const styles = StyleSheet.create({
     
 	enviarSem: {
+      flex: 1,
       borderRadius: 6,
       backgroundColor: '#90EE90',
       width: '100%',
