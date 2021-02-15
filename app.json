@@ -12,7 +12,7 @@
     },
     "android": {
         "config": {
-            "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713" // sample id, replace with your own
+            "googleMobileAdsAppId": "ca-app-pub-6230598993352812~2905498191"
         }
     }
 }
