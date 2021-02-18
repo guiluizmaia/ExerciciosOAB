@@ -4,6 +4,26 @@ import { FontAwesome, FontAwesome5, MaterialCommunityIcons, MaterialIcons  } fro
 import { AdMobBanner } from 'expo-ads-admob';
 const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 
+const slides = [{
+    key: 1,
+    title: 'Intuíto do Aplicativo',
+    text: 'Prátique para a sua prova da OAB, de forma simples e rápida',
+    image: 'teste'
+    },
+    {
+    key: 2,
+    title: 'Ofensiva',
+    text: 'Essa área é a sua ofensiva (quantidade de respostas certas em seguida)',
+    image: 'teste'
+    },
+    {
+    key: 3,
+    title: 'Vamos lá',
+    text: 'Agora é só estudar!!!',
+    image: 'teste'
+    },
+]
+
 export default ({ navigation}) => {
   return ( 
 	<View style={{flex: 1, backgroundColor: '#DCDCDC'}}>

@@ -2409,7 +2409,7 @@ export default ({route , navigation}) => {
       </TouchableOpacity>
       }
 
-      {acertou != 2 && contagem != 2 &&
+      {acertou != 2 && contagem != 1 &&
       <TouchableOpacity style = { styles.enviarSem } onPress={() => {navigation.reset({
         index: 0,
         routes: [{ name: 'Home'}, 
@@ -2421,7 +2421,7 @@ export default ({route , navigation}) => {
       </TouchableOpacity>
       }
 	  
-	  {acertou != 2 && contagem == 2 &&
+	  {acertou != 2 && contagem == 1 &&
       <TouchableOpacity style = { styles.enviarSem } onPress={ async() => {
         try{
 		      await InterstitalAd();
