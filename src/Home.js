@@ -8,19 +8,19 @@ const slides = [{
     key: 1,
     title: 'Intuíto do Aplicativo',
     text: 'Prátique para a sua prova da OAB, de forma simples e rápida',
-    image: 'teste'
+    image: require('./Imagens/assets1.png')
     },
     {
     key: 2,
     title: 'Ofensiva',
     text: 'Essa área é a sua ofensiva (quantidade de respostas certas em seguida)',
-    image: 'teste'
+    image: require('./Imagens/assets2.png')
     },
     {
     key: 3,
     title: 'Vamos lá',
     text: 'Agora é só estudar!!!',
-    image: 'teste'
+    image: require('./Imagens/assets3.png')
     },
 ]
 
