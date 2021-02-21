@@ -1,30 +1,94 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef,  } from "react";
 import { View, Image, Text, Dimensions, StyleSheet, TouchableOpacity } from "react-native";
-import { FontAwesome, FontAwesome5, MaterialCommunityIcons, MaterialIcons  } from '@expo/vector-icons';
-import { AdMobBanner } from 'expo-ads-admob';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { FontAwesome, FontAwesome5, MaterialCommunityIcons, MaterialIcons, AntDesign  } from '@expo/vector-icons';
+import AppIntroSlider from "react-native-app-intro-slider";
+
 const {width: screenWidth, height: screenHeight} = Dimensions.get('window');
 
 const slides = [{
-    key: 1,
+    key: "1",
     title: 'Intuíto do Aplicativo',
     text: 'Prátique para a sua prova da OAB, de forma simples e rápida',
-    image: require('./Imagens/assets1.png')
+    image: require('./Imagens/assets1.png'),
+    backgroundColor: '#DCDCDC'
     },
     {
-    key: 2,
+    key: "2",
     title: 'Ofensiva',
     text: 'Essa área é a sua ofensiva (quantidade de respostas certas em seguida)',
-    image: require('./Imagens/assets2.png')
+    image: require('./Imagens/assets2.png'),
+    backgroundColor: '#DCDCDC'
     },
     {
-    key: 3,
+    key: "3",
     title: 'Vamos lá',
     text: 'Agora é só estudar!!!',
-    image: require('./Imagens/assets3.png')
+    image: require('./Imagens/assets3.png'),
+    backgroundColor: '#DCDCDC'
     },
 ]
 
 export default ({ navigation}) => {
+    const [showHome, setShowHome] = useState(Show);
+    
+    const Show = async () => {   
+    try {
+        let ShowHome = await setShowHome(AsyncStorage.getItem("@ShowVar"))
+        if(ShowHome == null){
+            ShowHome = "false";
+        }
+        return ShowHome
+    } catch (error) {
+        alert(error)
+    }}
+
+    function renderNextButton (){
+        return(
+            <FontAwesome name="arrow-circle-right" size={40} color="black" style={{marginRight:20}}/>
+        );
+    }
+    
+    function renderDoneButton (){
+        return(
+            <AntDesign name="checkcircleo" size={40} color="black" style = {{marginRight: 20}} />
+        );
+    }
+
+    function renderSlides ({item}){
+        return(
+            <View style={{flex:1, backgroundColor: '#DCDCDC'}}>
+                <Image
+                    source={item.image}
+                    style={{
+                        resizeMode: 'cover',
+                        height: '65%',
+                        width:'100%', 
+                        marginTop: '15%'
+                    }}
+                />
+
+                <Text style={{
+                    paddingTop: 25,
+                    paddingBottom: 10,
+                    fontSize: 23,
+                    fontWeight: 'bold',
+                    color: '#009cff',
+                    alignSelf: 'center'
+                }}>{item.title}</Text>
+
+                <Text style={{
+                    textAlign: 'center',
+                    color: '#b5b5b5',
+                    paddingHorizontal: 25,
+                    fontSize: 15
+                }}>{item.text}</Text>
+                
+            </View>
+        )
+    }
+
+    if(showHome == "true"){
   return ( 
 	<View style={{flex: 1, backgroundColor: '#DCDCDC'}}>
         
@@ -38,6 +102,28 @@ export default ({ navigation}) => {
     </View>
     </View>
     );
+} else{
+    return(
+    <AppIntroSlider 
+    renderItem={renderSlides}
+    renderNextButton={renderNextButton}
+    renderDoneButton={renderDoneButton}
+    onDone={async()=>{
+        setShowHome("true")
+        try {
+            await AsyncStorage.setItem("@ShowVar", "true");            
+        } catch (error) {
+            alert(error)
+        }
+        
+    }}
+    data={slides}
+    activeDotStyle={{
+        backgroundColor: '#009cff',
+        width: 30
+    }}/>
+    );
+}
 }
 
 const styles = StyleSheet.create({
